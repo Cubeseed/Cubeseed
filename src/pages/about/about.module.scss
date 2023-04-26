@@ -1,0 +1,607 @@
+$small: 400px;
+$medium: 768px;
+$high: 1200px;
+
+.main_about_container {
+    background: url(../../images/aboutBckgr.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 967px;
+}
+
+.about_container h3 {
+    width: 244px;
+    font-family: 'Alternate Gothic ATF';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    margin-left: 273px;
+    color: #FFFFFF;
+    padding-top: 98px;
+}
+
+.about_container img {
+    margin-left: 64px;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_about_container p {
+width: 693px;
+font-family: 'Alternate Gothic ATF';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 48px;
+color: #FFFFFF;
+margin-left: 273px;
+margin-top: 76px;
+
+}
+
+.join_link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer !important;   
+    
+}
+
+.join_wait {
+    width: 673px;
+    height: 155px;
+    background: #FFB628;
+    border-radius: 40px;
+    margin-right: 40px;
+    padding-left: 33px;
+}
+
+
+.join_link h3{
+    width: 640px;
+    font-family: 'Alternate Gothic ATF';
+    font-weight: 900;
+    font-size: 62px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.join_link h3:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.join_link span {
+    font-family: 'Alternate Gothic ATF';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tractor_image img {
+    position: absolute;
+    top: 40em;
+    right: 0px;
+}
+
+.our_solutions {
+    padding-top: 80px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.our_solutions h2 {
+    width: 550px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 34px;
+    text-align: center;
+    color: #03656B;
+} 
+
+.our_solutions p {
+    width: 980px;
+    margin-top: 20px;
+    height: 128px;
+    font-family: 'Alternate Gothic ATF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.offers_main {
+    background: #F5F5F5;
+
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 98%;
+    margin: auto;
+
+}
+
+.offers h2 {
+    width: 550px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 34px;
+    text-align: center;
+    color: #03656B;
+}
+
+.offers span {
+    width: 918px;
+    height: 141px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 33px;
+}
+
+.offers_icons {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}
+
+.offers_icons p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 34px;
+    text-align: center;
+    color: #03656B;
+}
+
+
+.how_works {
+    margin-top: 40px;
+}
+
+.containers {
+    background: #F5F5F5;
+}
+
+.our_philosphy_container_main {
+    display: flex;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.our_philosphy_container {
+    width: 625px;
+    height: 477px;
+    background: #FFB84C;
+    border-radius: 20px;
+}
+
+.our_philosphy_container h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 34px;
+    color: #002629;
+    padding-top: 67px;
+    margin-left: 157px;
+    margin-right: 156px;
+}
+
+.our_philosphy_container p {
+    width: 504px;
+    height: 248px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #002629;
+    margin-top: 12px;
+    margin-left: 61px;
+    margin-right: 60px;
+}
+
+.our_philosphy_image {
+    margin-left: 54px;
+}
+
+.our_mission_image {
+    margin-right: 46px;
+}
+
+.our_mission_container {
+    width: 593px;
+    height: 406px;
+    background: #448C2F;
+    border-radius: 30px;
+}
+
+.our_mission_container h4 {
+    width: 321px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 62px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+
+.our_mission_container p {
+    width: 513px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 68px;
+}
+
+.testimonials_title {
+    background: #F5F5F5;
+    padding-left: 360px;
+}
+
+.testimonials_main {
+    background: #F5F5F5;
+    padding-bottom: 40px;
+}
+
+
+.testimonials_title h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.testimonials_container {
+    box-sizing: border-box;
+    width: 1350px;
+    height: 560px;
+    background: #FFFFFF;
+    border: 5px solid #03656B;
+    border-radius: 80px 0px;
+    display: flex;
+    margin-left: 76px;
+    margin-top: 12px;
+
+}
+
+.testimonials_containers_slider {
+    box-sizing: border-box;
+    width: 1350px;
+    height: 560px;
+    background: #FFFFFF;
+    border: 5px solid #03656B;
+    border-radius: 80px 0px;
+    display: flex;
+    margin-left: 76px;
+    margin-top: 12px;
+
+}
+
+
+.testimonials_left img {
+    margin-top: 30px;
+    margin-left: 46px;
+}
+
+.testimonials_left h6 {
+    text-align: center;
+    margin-top: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #03656B;
+}
+
+.testimonials_left p {
+    text-align: center;
+    margin-top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.testimonials_text p {
+        width: 813px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: justify;
+        color: #000000;
+        margin-top: 44px;
+        margin-left: 52px;
+        margin-bottom: 28px;
+}
+
+.more_arrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.more_arrow p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+.more_arrow img {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: $medium) {
+
+    .main_about_container {
+        background: url(../../images/aboutBckgr.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 577px;
+    }
+        .about_container h3 {
+            width: 300px;
+            font-size: 25px;
+            margin-left: 140px;
+        }
+        .about_container img{
+            width: 300px;
+            height: 80px;
+        }
+
+        .offers {
+            padding-bottom: 31px;
+        }
+
+        .main_about_container p {
+            width: 393px;
+            font-family: 'Alternate Gothic ATF';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: right;
+            margin-left: 20px;
+            
+            }
+
+            .join_wait {
+                width: 334px;
+                height: 92px;
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 30px;
+            }
+
+            .join_link span {
+                width: 301px;
+                height: 23px;
+                font-family: 'Gothic A1';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 23px;
+            }
+
+            .join_link h3{
+                width: 275px;
+                font-family: 'Gothic A1';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                padding-right: 30px;
+                margin: auto;
+                margin-top: 16px;
+                
+            }
+
+            .tractor_image {
+                display: none;
+            }
+
+            .offers h2 {
+                width: 240px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 34px;
+                text-align: center;
+            }
+
+            .offers span {
+                width: 321px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+            }
+
+            .offers_icons {
+                margin: auto;
+            }
+
+            .offers_icons img {
+                width: 96.74px;
+                height: 93.46px;
+                margin-left: 10px;
+            }
+
+            .offers_icons p {
+                width: 114px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 34px;
+                text-align: center;
+                margin: auto;
+
+            }
+
+            .our_philosphy_image img{
+                display: none;
+            }
+
+            .our_mission_image img {
+                display: none;
+            }
+
+            .our_philosphy_container {
+                width: 354px;
+                height: 262px;
+                border-radius: 20px;
+            }
+
+            .our_philosphy_container p {
+                width: 313px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: justify;
+                margin-left: 21px;
+                margin-right: 20px;
+                margin-top: 22px;
+            }
+            
+            .our_philosphy_container h4 {
+                width: 154px;
+                height: 24px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 34px;
+                padding-top: 10px;
+                margin: auto;
+            }
+
+            .our_mission_container {
+                width: 354px;
+                height: 218px;
+                border-radius: 30px;
+            }
+
+            .our_mission_container h4 {
+                width: 212.58px;
+                height: 25.72px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 34px;
+                text-align: center;
+                padding-top: 10px;
+                margin: auto;
+            }
+
+            .our_mission_container p {
+                width: 312px;
+                height: 151px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                margin: auto;
+                margin-top: 16px;
+            }
+
+            .testimonials_main {
+                display: none;
+            }
+
+              .our_philosphy_container_main {
+                padding-top: 0px;
+                margin-left: 40px;
+            }
+            .our_philosphy_container_main:nth-of-type(2) {
+                margin-right: 100px;
+            }
+
+            .our_philosphy_container {
+                padding-top: 0px;
+                
+            }
+
+            .our_mission_container {
+                margin-top: 14px;
+            }
+           
+            .containers {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+  }
+
