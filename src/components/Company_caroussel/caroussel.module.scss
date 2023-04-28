@@ -110,10 +110,10 @@ $high: 1200px;
 
   @keyframes scroll-l {
     0% {
-        transform: translateX(1500px);
+        transform: translateX(1800px);
     }
     100% {
-        transform: translateX(calc(-200px * 6));
+        transform: translateX(calc(1200px * 7));
     }
   
   }

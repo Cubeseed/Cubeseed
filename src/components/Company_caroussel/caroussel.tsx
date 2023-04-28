@@ -16,22 +16,22 @@ const Caroussel: React.FC = () => {
     <div className={styles.slides}>
     <div className={styles.slideTrack}>
         <div className={styles.slide}>
-            <Image src={naic} alt="asa" />
+            <Image src={naic} alt="naic" />
         </div>
         <div className={styles.slide}>
-            <Image src={nirsalBank} alt="da" />
+            <Image src={nirsalBank} alt="nirsal-bank" />
         </div>
         <div className={styles.slide}>
-            <Image src={nirsal} alt="DSA" />
+            <Image src={nirsal} alt="nirsal" />
         </div>
         <div className={styles.slide}>
-            <Image src={kepro} alt="DSA" />
+            <Image src={kepro} alt="kepro" />
         </div>
         <div className={styles.slide}>
-            <Image src={bankIndustry} alt="DSA" />
+            <Image src={bankIndustry} alt="bank-industry" />
         </div>
         <div className={styles.slide}>
-            <Image src={agrited} alt="SADSA" />
+            <Image src={agrited} alt="agrited" />
         </div>
     </div>
 </div>

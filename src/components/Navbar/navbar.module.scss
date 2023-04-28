@@ -24,6 +24,10 @@ $high: 1200px;
   .hamburger {
     display: none;
   }
+
+  .close_btn {
+    display: none;
+  }
   
   .navLinks li a {
     width: 50px;
@@ -63,10 +67,6 @@ $high: 1200px;
 
 
   @media screen and (max-width: $medium) {
-    .navLinks {
-      display: none;
-    }
-
     .waitBtn {
       display: none;
     }
@@ -81,15 +81,48 @@ $high: 1200px;
 
     .hamburger {
       display: block;
-      width: 40px;
-      height: 30px;
+      width: 30px;
+      height: 20px;
       margin-left: 13px;
       cursor: pointer;
     }
-  }
 
-  @media screen and (max-width: $small) {
+    .close_btn {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10px;
+    }
+
+    .close_btn img {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    .close_btn img:hover {
+        transform: translateY(-3px);
+       
+    }
+
     .navLinks {
-      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 4rem;
+      left: -100%;
+      width: 100%;
+      height: calc(90vh - 4rem);
+      background-color: #fff;
+      transition: all 0.8s ease;
+    }
+  
+    .navLinks li {
+      margin: 1rem 0;
+    }
+  
+    .navLinks.showMenu {
+      left: 0;
     }
   }
+
+
+
